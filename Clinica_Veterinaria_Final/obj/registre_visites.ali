@@ -1,0 +1,95 @@
+V "GNAT Lib v2016"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U registre_visites%b	registre_visites.adb	c398cc6a NE OO PK GE IL
+
+U registre_visites%s	registre_visites.ads	285aa38b BN EE NE OO PK GE IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-ioexce.ads		20160516092927 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20160516092929 119b8fb3 ada.streams%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
+D a-unccon.ads		20160516092931 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D i-cstrea.ads		20160516092927 e53d8b8e interfaces.c_streams%s
+D registre_visites.ads	20170517192536 1037565f registre_visites%s
+D registre_visites.adb	20170517192536 d3af9a35 registre_visites%b
+D system.ads		20160516092929 6326c08a system%s
+D s-crtl.ads		20160516092927 0ebbdb71 system.crtl%s
+D s-exctab.ads		20160516092931 54135002 system.exception_table%s
+D s-ficobl.ads		20160516092933 078245e4 system.file_control_block%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-soflin.ads		20160516092929 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092931 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20160516092931 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 10|1r6 1r23
+X 6 a-textio.ads
+49K13*Text_IO 471e16 10|1w10 1r27
+166U14*New_Line 11|100s9 100s18
+208U14*Put 11|39s13
+242U14*Put 11|37s9 42s9
+263U14*Put_Line 11|21s13 97s13
+X 10 registre_visites.ads
+3i5 MAX_LENGTH{integer} 20r24 11|17r28 20r21
+4k9*registre_visites 3z5 16E10 27l5 27e21 11|1b14 103l5 103t21
+6X5*already_exists 11|67r27 81r14
+7R10*bst 9r34 11r31 12r33 23c10 25e15 11|48r34 49r14 56r31 85r33
+9V14*new_registre{7R10} 11|48b14 53l9 53t21
+11U15*put 11=19 11>36 11|56b15 83l9 83t12
+11r19 reg{7R10} 11|56b19 79m23 79r23
+11a36 elem{string} 11|56b36 77r48
+12U15*print_bst 12>25 11|85b15 101l9 101t18
+12r25 reg{7R10} 11|85b25 96r12 99r17
+16R10 Node 17r26 19c10 22e15 11|62r31
+17P10 PNode(16R10) 21r22 24r15 11|57r48 86r32
+20a9 key{string} 11|64r43 90r26
+21p9 left{17P10} 11|69m42 89r27
+21p15 right{17P10} 11|71m42 91r27
+24p9 root{17P10} 11|51m13 79m27 96r16 99r21
+X 11 registre_visites.adb
+3e5 marca_final{character} 9r21 30r21 38r53
+5V14 valor{integer} 5b14 5>20 14l9 14t14 59s35 64s30
+5a20 x{string} 7r23 9r15 10r40
+6i9 sum{integer} 10m13 10r20 13r16
+7i9 i{integer} 9r17 10r42 11m13 11r16
+16V14 filtrar_string{string} 16b14 16>29 32l9 32t23 77s33
+16a29 x{string} 18r23 20r12 25r18 26r25
+17a9 new_Str{string} 26m13 30m9 31r16
+18i9 i{integer} 25r15 26r21 26r27 27m13 27r16 30r17
+34U15 mostra 34b15 34>22 43l9 43t15 90s17
+34a22 str_filt{string} 35r23 38r17 38r40 39r17
+35i9 i{integer} 38r15 38r49 39r26 40m13 40r16
+49r9 reg{10|7R10} 51m9 52r16
+57U19 recursive_put 57b19 57=33 57>55 69s21 71s21 75l13 75t26 79s9
+57p33 actual{10|17P10} 61r16 62m17 64r36 69r35 71r35
+57a55 elem{string} 59r41 62r37 69r48 71r49
+58i13 valor_aux{integer} 64m17 66r20 68r35 70r35
+59i13 valor_key{integer} 66r32 68r23 70r23
+77a9 str_filtrada{string} 79r33
+86U19 inordre 86b19 86>27 89s17 91s17 93l13 93t20 99s9
+86p27 p{10|17P10} 88r16 89r25 90r24 91r25
+

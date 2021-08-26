@@ -1,0 +1,27 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/mich/Programming Projects/Ada Projects/Clinica_Veterinaria_Final/clinica_veterinaria.gpr
+20170517192536
+[BOUND OBJECT FILES]
+/home/mich/Programming Projects/Ada Projects/Clinica_Veterinaria_Final/obj/constants.o
+/home/mich/Programming Projects/Ada Projects/Clinica_Veterinaria_Final/obj/d_dau.o
+/home/mich/Programming Projects/Ada Projects/Clinica_Veterinaria_Final/obj/d_list.o
+/home/mich/Programming Projects/Ada Projects/Clinica_Veterinaria_Final/obj/hash_map.o
+/home/mich/Programming Projects/Ada Projects/Clinica_Veterinaria_Final/obj/out_sys.o
+/home/mich/Programming Projects/Ada Projects/Clinica_Veterinaria_Final/obj/priority_queue.o
+/home/mich/Programming Projects/Ada Projects/Clinica_Veterinaria_Final/obj/registre_visites.o
+/home/mich/Programming Projects/Ada Projects/Clinica_Veterinaria_Final/obj/clinica_veterinaria.o
+/home/mich/Programming Projects/Ada Projects/Clinica_Veterinaria_Final/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/mich/Programming Projects/Ada Projects/Clinica_Veterinaria_Final/obj/
+-L/home/mich/Programming Projects/Ada Projects/Clinica_Veterinaria_Final/obj/
+-L/usr/gnat/lib/gcc/x86_64-pc-linux-gnu/4.9.4/adalib/
+-static
+-static-libgcc
+/usr/gnat/lib/gcc/x86_64-pc-linux-gnu/4.9.4/adalib/libgnat.a
+-ldl

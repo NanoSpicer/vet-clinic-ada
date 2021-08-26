@@ -1,0 +1,47 @@
+V "GNAT Lib v2016"
+A -gnatA
+A -gnatc
+A -mtune=generic
+A -march=x86-64
+P NO ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U llista%b		llista.adb		64368e68 OO PK GE IL
+
+U llista%s		llista.ads		7e21960a EE OO PK GE IL
+
+D llista.ads		20170502192325 7e21960a llista%s
+D llista.adb		20170502192252 1a171862 llista%b
+X 1 llista.ads
+2+10 item 11r46 14r66 15r63 19r37 2|2r46 19r66 20r14 30r63
+3i5 min{positive} 18r36
+4i5 max{positive} 18r41 2|4r28
+5k9*llista 2z10 3z5 4z5 18E13 26l5 26e11 2|1b14 36l5 36t11
+6R10*llista 11r32 13r32 14r34 15r31 21c10 24e15 2|2r32 12r32 13r15 19r34
+. 30r31
+8X5*space_overflow 2|5r19
+9X5*bad_use 2|23r19
+11U15*put 11=19 11>40 2|2b15 9l9 9t12
+11r19 list{6R10} 2|2b19 4r12 7m9 7r24 8m9 8r26
+11*40 x{2+10} 2|2b40 7r42
+13V14*new_llista{6R10} 2|12b14 17l9 17t19
+14V14*remove{2+10} 14=21 14>42 2|19b14 28l9 28t15
+14r21 list{6R10} 2|19b21 22r12 25r15 25r30 26m9 26r26
+14i42 pos{integer} 2|19b42
+15V14*get{2+10} 15=18 15>39 2|30b14 34l9 34t12
+15r18 list{6R10} 2|30b18 33r16
+15i39 pos{integer} 2|30b39 31r29
+18I13 index{integer} 19r27 2|31r14 31r23
+19A10 memoria(2+10)<integer> 22r20
+22a9 contingut{19A10} 2|7m14 25r20 33r21
+23i9 elements{natural} 2|4r17 7r29 8m14 8r31 15m14 22r17 25r35 26m14 26r31
+X 2 llista.adb
+13r9 list{1|6R10} 15m9 16r16
+20*9 var{1|2+10} 25m9 27r16
+31i9 idx{1|18I13} 33r31
+

@@ -1,0 +1,71 @@
+V "GNAT Lib v2016"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U d_list%b		d_list.adb		e1edabe8 NE OO PK GE IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U d_list%s		d_list.ads		df875c39 BN EE NE OO PK GE
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-ioexce.ads		20160516092927 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20160516092929 119b8fb3 ada.streams%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
+D a-unccon.ads		20160516092931 f9eb8f06 ada.unchecked_conversion%s
+D d_list.ads		20170519125147 df875c39 d_list%s
+D d_list.adb		20170519125150 06070205 d_list%b
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D i-cstrea.ads		20160516092927 e53d8b8e interfaces.c_streams%s
+D system.ads		20160516092929 6326c08a system%s
+D s-crtl.ads		20160516092927 0ebbdb71 system.crtl%s
+D s-exctab.ads		20160516092931 54135002 system.exception_table%s
+D s-ficobl.ads		20160516092933 078245e4 system.file_control_block%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-soflin.ads		20160516092929 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092931 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20160516092931 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 9|1r6 20r13 23r17
+X 6 a-textio.ads
+49K13*Text_IO 471e16 9|1w10 20r17 23r21
+263U14*Put_Line 9|20s25 23s29
+X 8 d_list.ads
+2+10 item 3r31 9r42 17r18 9|9r42
+3V19 Image{string} 3>25 9|23s38
+3*25 i{2+10}
+4k9*d_list 2z10 3z19 14E10 25l5 25e11 9|2b14 30l5 30t11
+6R10*list 8r31 9r30 10r31 21c10 23e15 9|4r31 9r30 16r31
+8U15*new_list 8<24 9|4b15 7l9 7t17
+8r24 p{6R10} 9|4b24 6m9
+9U15*push 9=20 9>36 9|9b15 14l9 14t13
+9r20 p{6R10} 9|9b20 12r34 13m9
+9*36 x{2+10} 9|9b36 12r31
+10U15*show_list 10>25 9|16b15 27l9 27t18
+10r25 p{6R10} 9|16b25 17r23
+14R10 Node 15r26 16c10 19e15 9|12r25
+15P10 PNode(14R10) 18r15 22r14 9|10r19 17r14
+17*9 content{2+10} 9|23r48
+18p9 prev{15P10} 9|24r26
+22p9 TOS{15P10} 9|6m11 12r36 13m11 17r25
+X 9 d_list.adb
+10p9 nou_node{8|15P10} 12m9 13r16
+17p9 aux{8|15P10} 19r12 22r19 23r44 24m17 24r22
+

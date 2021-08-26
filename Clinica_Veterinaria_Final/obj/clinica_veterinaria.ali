@@ -1,0 +1,334 @@
+V "GNAT Lib v2016"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U clinica_veterinaria%b	clinica_veterinaria.adb	431a8743 NE OO PK IL
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W system.concat_4%s	s-conca4.adb		s-conca4.ali
+W system.concat_9%s	s-conca9.adb		s-conca9.ali
+W system.img_bool%s	s-imgboo.adb		s-imgboo.ali
+W system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U clinica_veterinaria%s	clinica_veterinaria.ads	f238b3da BN EE OO PF PK IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.text_io%s		a-textio.adb		a-textio.ali
+W constants%s		constants.ads		constants.ali
+W d_list%s		d_list.adb		d_list.ali  AD
+W hash_map%s		hash_map.adb		hash_map.ali  AD
+W interfaces%s		interfac.ads		interfac.ali
+W out_sys%s		out_sys.adb		out_sys.ali
+W priority_queue%s	priority_queue.adb	priority_queue.ali  AD
+W registre_visites%s	registre_visites.adb	registre_visites.ali  AD
+W system%s		system.ads		system.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-charac.ads		20160516092931 2d3ec45b ada.characters%s
+D a-chlat1.ads		20160516092930 66457d31 ada.characters.latin_1%s
+D a-direio.ads		20160516092928 5842da07 ada.direct_io%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-finali.ads		20160516092931 bf4f806b ada.finalization%s
+D a-ioexce.ads		20160516092927 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20160516092929 119b8fb3 ada.streams%s
+D a-string.ads		20160516092930 90ac6797 ada.strings%s
+D a-strmap.ads		20160516092930 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20160516092928 3f91d4c5 ada.strings.unbounded%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
+D a-unccon.ads		20160516092931 f9eb8f06 ada.unchecked_conversion%s
+D clinica_veterinaria.ads  20170522110326 c2b49d5f clinica_veterinaria%s
+D clinica_veterinaria.adb  20170523092927 81ae1a1c clinica_veterinaria%b
+D constants.ads		20170522111741 79fa9657 constants%s
+D d_list.ads		20170519125147 df875c39 d_list%s
+D d_list.adb		20170519125150 06070205 d_list%b
+D hash_map.ads		20170519135447 a92ac087 hash_map%s
+D hash_map.adb		20170517192536 de8894ff hash_map%b
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D i-cstrea.ads		20160516092927 e53d8b8e interfaces.c_streams%s
+D out_sys.ads		20170519135830 ccc44308 out_sys%s
+D priority_queue.ads	20170522104819 dcb9e5fe priority_queue%s
+D priority_queue.adb	20170523094750 201fe962 priority_queue%b
+D registre_visites.ads	20170517192536 1037565f registre_visites%s
+D registre_visites.adb	20170517192536 d3af9a35 registre_visites%b
+D system.ads		20160516092929 6326c08a system%s
+D s-atocou.ads		20160516092932 b45c2d8d system.atomic_counters%s
+D s-conca2.ads		20160516092930 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20160516092932 0b705ca5 system.concat_3%s
+D s-conca4.ads		20160516092931 7e642b20 system.concat_4%s
+D s-conca9.ads		20160516092930 dc4a3424 system.concat_9%s
+D s-crtl.ads		20160516092927 0ebbdb71 system.crtl%s
+D s-direio.ads		20160516092927 7c86ede3 system.direct_io%s
+D s-exctab.ads		20160516092931 54135002 system.exception_table%s
+D s-ficobl.ads		20160516092933 078245e4 system.file_control_block%s
+D s-finmas.ads		20160516092931 7811a767 system.finalization_masters%s
+D s-finroo.ads		20160516092931 4ff27390 system.finalization_root%s
+D s-imgboo.ads		20160516092927 f5d971eb system.img_bool%s
+D s-imenne.ads		20160516092929 614c06c0 system.img_enum_new%s
+D s-imgint.ads		20160516092928 02dbe0c2 system.img_int%s
+D s-memory.ads		20160516092930 597d6634 system.memory%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20160516092927 ede33ef8 system.pool_global%s
+D s-secsta.ads		20160516092931 86a2856d system.secondary_stack%s
+D s-soflin.ads		20160516092929 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092931 09bd3940 system.standard_library%s
+D s-stalib.adb		20160516092926 f2fe2716 system.standard_library%b
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20160516092928 b16154c2 system.storage_pools%s
+D s-stposu.ads		20160516092927 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20160516092927 aedef97e system.stream_attributes%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20160516092931 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 15|1r6 1r33
+X 9 a-string.ads
+16K13*Strings 35e16 15|1r10 1r37
+X 11 a-strunb.ads
+76K21*Unbounded 489e26 15|1w18 1r45
+79R9*Unbounded_String<6|43R9> 473e14 15|25r14 16|4r14 264r20 265r18
+94V13*To_Unbounded_String{79R9} 16|4s34 49s19 264s40 265s38
+100V13*To_String{string} 16|10s16 113s37 114s61 119s48 120s67 149s37 155s23
+. 168s45 182s45 211s53 216s84 222s31 243s41 259s20 282s23 283s23
+111U14*Append 16|6s9 7s9 8s9 9s9 269s13 271s17 273s17 275s17 277s13 278s13
+X 15 clinica_veterinaria.ads
+6K9*clinica_veterinaria 99l5 99e24 16|1b14 51r20 53r9 53r45 118r13 118r47
+. 294l5 294t24
+9E10*tipus_visita 9e62 11r16 34r16 69r36 82r34 97r74 16|60r34 288r74
+9n27*REVISIO{9E10} 16|64r18 136r18 170r26
+9n36*CURA{9E10} 16|66r18 138r18 172r26
+9n42*CIRUGIA{9E10} 16|68r18 140r18 174r26
+9n51*EMERGENCIA{9E10} 16|70r18 142r18 176r26
+10R10*reg_visita 13e15 15r26 17r45 16|3r26 197r17 209r26
+11e9*tipus{9E10} 16|6r43 216r66 218r44 218r91
+12i9*cicle_inici{positive} 16|8r32
+15V14*Image{string} 15>20 17r57 16|3b14 11l9 11t14
+15r20 v{10R10} 16|3b20 6r41 8r30
+17K13*historial_mascota[18|4] 18r9 27r20
+21I13*id_mascota{positive} 23r19 23r33 26r13
+23i5*following_id{21I13} 16|51r40 53m29 53r65 118m33 118r67
+24R10*mascota 28e15 29r30 33r19 16|46r32 74r24
+25r9*nom{11|79R9} 16|49m14 113r54 114r78 119r65 120r84 149r62 155r46 168r72
+. 182r72 211r101 216r101 222r48 243r58 259r41
+26i9*id{21I13} 16|51m14
+27r9*historial{18|6R10[17]} 16|55m23 212m29 244r26
+29P10*p_mascota(24R10) 60r54 81r49 82r61 88r83 16|45r49 46r15 60r61 109r83
+. 110r17 198r17 240r17
+32R10*visita 37e15 38r29 40r26 42r26 44r26 46r26 59r47 82r99 90r79 16|12r26
+. 16r26 20r26 60r99 74r16 130r22 152r79 161r18 181r52 257r26
+33r9*visitant{24R10} 16|149r53 155r37 168r63 182r63 211r92 259r32
+34e9*tipus{9E10} 16|135r20 155r92 169r30 209r67 259r53
+35i9*valor_prioritat{integer} 16|14r18 14r36 18r18 18r36 22r18 22r36 260r48
+36i9*cicle_inici{positive} 16|209r103 260r13
+38P10*p_visita(32R10) 56r18 16|128r16
+40V15*"<"{boolean} 40>18 40>20 59r56 16|12b15 15l10 15t12
+40r18 a{32R10} 16|12b18 14r16
+40r20 b{32R10} 16|12b20 14r34
+42V15*">"{boolean} 42>18 42>20 59r61 16|16b15 19l10 19t12
+42r18 a{32R10} 16|16b18 18r16
+42r20 b{32R10} 16|16b20 18r34
+44V15*"="{boolean} 44>18 44>20 59r66 16|20b15 23l10 23t12
+44r18 a{32R10} 16|20b18 22r16
+44r20 b{32R10} 16|20b20 22r34
+46V14*Image{string} 46>20 59r70 16|257b14 261l9 261t14
+46r20 a{32R10} 16|257b20 259r30 259r51 260r11 260r46
+50I13*id_consulta{positive} 52r13 71r35
+51R10*consulta 57e15 71r51
+52i9*id{50I13} 16|33m28 98r70 104r77 149r109 182r119 222r103
+53i9*cicles_ocupacio{natural} 16|35m28 148m30 179m38 202r75 206r99 232m38
+. 232r76
+54b9*ocupada{boolean} 16|36m28 131r69 147m30 166r78 180m38 202r37 206r56
+. 221m38 231r37 272r41
+55b9*oberta{boolean} 16|37m28 81r29 93r69 97m30 103m36 166r37 270r41
+56p9*atenent{38P10} 16|34m28 146m30 181m38 204r41 209r59 209r95 211r84 220m38
+59K13*coa_visites[25|9] 63r9
+60K13*registre_clinica[20|5] 63r26 76r22 16|117r14
+62K13*registres_visites[27|4] 63r48 16|216r17
+65R10*reg_visitants 68e15 69r53
+66i9*registres{integer} 16|218m51 218r98
+67r9*visitants{27|7R10[62]} 16|216m73 290r46
+69A10*registre_visites(65R10)<9E10> 77r22
+71A10*array_consultes(51R10)<integer> 74r20 83r52 16|32r18 32r41 77r52 93r18
+. 126r23 131r18
+73R10*type_clinica 78e15 80r33 85r46 86r47 88r46 89r54 90r57 91r50 92r50
+. 93r43 95r44 96r47 97r50 98r43 16|25r33 26r12 89r46 101r47 109r46 125r54
+. 152r57 159r51 196r50 227r43 239r44 251r47 263r43 288r50
+74a9*consultes{71A10} 16|33m15 34m15 35m15 36m15 37m15 90r30 93r56 97m17
+. 98r57 103m17 104r58 131r56 146m17 147m17 148m17 149r96 165r26 165r51 166r24
+. 166r65 179m25 180m25 181m25 182r106 200r26 200r51 202r24 202r62 204r28
+. 206r43 206r86 209r46 209r82 211r71 220m25 221m25 222r90 230r26 230r51 231r24
+. 232m25 232r63 268r26 268r51 270r28 272r28
+75r9*llista_espera{25|11R10[59]} 16|41m11 130m48 154m24 167m45 254r29
+76r9*reg_clinica{20|10R10[60]} 16|30m20 113m24 119r35 211r40 242r32
+77a9*reg_visites{69A10} 16|216m47 218m25 218r72 290r27
+80V14*new_clinica{73R10} 16|25b14 43l9 43t20
+81V14*new_mascota{29P10} 81>26 16|45b14 57l9 57t20 112s19
+81a26 nom{string} 16|45b26 49r39
+82V14*new_visita{32R10} 82>25 82>48 82>72 16|60b14 75l9 75t19
+82e25 tipo{9E10} 16|60b25 63r14 74r47
+82p48 visitant{29P10} 16|60b48 74r33
+82i72 inici{positive} 16|60b72 61r35 74r69
+83V14*count_consultes_obertes{integer} 83>38 16|77b14 86l9 86t32
+83a38 consultes{71A10} 16|77b38 80r18 80r35 81r16
+85U15*obrir_consulta 85=30 16|40s9 89b15 99l9 99t23
+85r30 clinica{73R10} 16|89b30 90r22 93r48 97m9 98r49
+86U15*tancar_consulta 86=31 86>61 16|101b15 105l9 105t24
+86r31 clinica{73R10} 16|101b31 103m9 104r50
+86i61 posicio{natural} 16|101b61 103r27 104r68
+88V14*entrada_mascota{29P10} 88=30 88>60 16|109b14 122l9 122t24
+88r30 clinica{73R10} 16|109b30 113m16 113r16 119r27
+88a60 nom{string} 16|109b60 112r31
+89U15*pasar_mascota_consulta 89=38 16|125b15 150l9 150t31
+89r38 clinica{73R10} 16|125b38 130m40 130r40 131r48 146m9 147m9 148m9 149r88
+90U15*pasar_mascota_sala_espera 90=41 90>71 16|152b15 156l9 156t34
+90r41 clinica{73R10} 16|152b41 154m16 154r16
+90r71 vis{32R10} 16|152b71 154r39 155r33 155r88
+91U15*fer_passar_mascotes 91=35 16|159b15 192l9 192t28
+91r35 clinica{73R10} 16|159b35 165r18 165r43 166r16 166r57 167m37 167r37
+. 179m17 180m17 181m17 182r98
+92U15*despatxar_mascotes 92=34 16|196b15 225l9 225t27
+92r34 clinica{73R10} 16|196b34 200r18 200r43 202r16 202r54 204r20 206r35
+. 206r78 209r38 209r74 211r32 211r63 216m39 216r39 218m17 218r64 220m17 221m17
+. 222r82
+93U15*mostrar_clinica 93>31 16|263b15 286l9 286t24
+93r31 clinica{73R10} 16|263b31 268r18 268r43 270r20 272r20
+95V14*mostrar_historial{boolean} 95>32 95>58 16|239b14 249l9 249t26
+95r32 clinica{73R10} 16|239b32 242r24
+95a58 nom_animal{string} 16|239b58 242r45
+96U15*print_llista_espera 96>35 16|251b15 255l9 255t28
+96r35 clinica{73R10} 16|251b35 254r21
+97U15*print_registre_visites 97>38 97>64 16|288b15 291l9 291t31
+97r38 clinica{73R10} 16|288b38 290r19
+97e64 tipus{9E10} 16|288b64 290r39
+98U15*actualitzar 98=27 16|227b15 236l9 236t20
+98r27 clinica{73R10} 16|227b27 230r18 230r43 231r16 232m17 232r55
+X 16 clinica_veterinaria.adb
+4r9 var{11|79R9} 6m16 6r16 7m16 7r16 8m16 8r16 9m16 9r16 10r26
+26r9 c{15|73R10} 30m18 30r18 33m13 34m13 35m13 36m13 37m13 40m24 40r24 41m9
+. 42r16
+32i13 i{integer} 33r25 33r32 34r25 35r25 36r25 37r25
+46p9 masc{15|29P10} 49r9 51r9 55r18 56r16
+61i9 valor_prioritat{integer} 67m17 67r34 69m17 69r34 71m17 71r34 74r53
+78i9 count{integer} 82m17 82r26 85r16
+80i13 i{integer} 81r26
+90i9 i{integer} 93r15 93r66 94m13 94r16 97r27 98r67
+110p9 p_masc{15|29P10} 112m9 113r47 113r60 114r71 115r16 119m13 119r58 120r77
+. 121r20
+126i9 i{integer} 131r15 131r66 132m13 132r16 146r27 147r27 148r27 149r106
+127i9 espera{integer} 137m17 139m17 141m17 143m17 148r47
+128p9 p_vis{15|38P10} 130m9 135r14 146r39 149r47
+160i9 cicles{positive} 171m25 173m25 175m25 177m25 179r55
+161r9 vis_aux{15|32R10} 167m17 167r17 168r55 169r22 181r60 182r55
+165i13 i{integer} 166r34 166r75 179r35 180r35 181r35 182r116
+197r9 my_reg{15|10R10} 209m17 212r40 216r59 218r37 218r84
+198p9 p_masc{15|29P10} 211m17 212r22 216r94 222r41
+200i13 i{integer} 202r34 202r72 204r38 206r53 206r96 209r56 209r92 211r81
+. 220r35 221r35 222r100
+230i13 i{integer} 231r34 232r35 232r73
+240p9 p_masc{15|29P10} 242m9 243r51 244r19
+264r9 cliniques{11|79R9} 269m20 269r20 271m24 271r24 273m24 273r24 275m24
+. 275r24 277m20 277r20 282r33
+265r9 indexos{11|79R9} 278m20 278r20 283r33
+268i13 i{integer} 270r38 272r38 278r32
+X 17 constants.ads
+1K9*constants 15|2w6 2r21 16|67r52 69r52 71r52 137r25 139r25 141r25 143r25
+. 171r33 173r33 175r33 177r33 17|29e14
+5i5*MIN_CONSULTES{positive} 15|50r43
+6i5*MAX_CONSULTES{positive} 15|50r58
+13i5*CESPERA_REVISIO{positive} 16|137r35 171r43
+14i5*CESPERA_CURA{positive} 16|139r35 173r43
+15i5*CESPERA_CIRUGIA{positive} 16|141r35 175r43
+16i5*CESPERA_EMERGENCIA{positive} 16|143r35 177r43
+20i5*PR_CURA{positive} 16|67r62
+21i5*PR_CIRUGIA{positive} 16|69r62
+22i5*PR_EMERGENCIA{positive} 16|71r62
+27i5*MAX_NAME_LENGTH{integer} 15|62r69
+X 18 d_list.ads
+4k9*d_list 15|4w6 17r38 18|25e11
+6R10*list 15|27r38[17]
+8U15*new_list 16|55s9[15|17]
+9U15*push 16|212s17[15|17]
+10U15*show_list 16|244s9[15|17]
+X 20 hash_map.ads
+3+10 item 15|60r46
+5k9*hash_map 15|4w19 60r37 20|35e13
+8X5*already_exists 16|117r31[15|60]
+9X5*no_such_item 16|247r14[15|60]
+10R10*map 15|76r39[60]
+12U15*new_hash 16|30s9[15|60]
+13U15*insert 16|113s9[15|60]
+15V14*read{15|29P10} 16|119s22[15|60] 211s27[15|60] 242s19[15|60]
+X 24 out_sys.ads
+5K9*out_sys 15|3w27 16|28r9 98r9 104r9 114r9 120r13 149r9 155r9 168r17 182r17
+. 190r13 205r21 206r21 222r17 243r9 253r9 281r9 282r9 283r9 284r9 285r9 24|31e12
+25U15*print 16|28s17 98s17 104s17 114s17 120s21 149s17 155s17 168s25 182s25
+. 190s21 205s29 206s29 222s25 243s17 253s17 281s17 282s17 283s17 284s17 285s17
+X 25 priority_queue.ads
+9k9*priority_queue 15|3w6 59r32 25|36e19
+11R10*p_coa 15|75r24[59]
+12X5*bad_use 16|189r14[15|59]
+16V14*new_p_coa{11R10[15|59]} 16|41s28[15|59]
+18U15*insert 16|154s9[15|59]
+19V14*rem_first{15|32R10} 16|130s30[15|59] 167s27[15|59]
+26U15*print_p_coa 16|254s9[15|59]
+X 27 registre_visites.ads
+3i5 MAX_LENGTH{integer} 15|62r55
+4k9*registre_visites 15|5w6 62r38 27|27e21
+7R10*bst 15|67r20[62]
+9V14*new_registre{7R10[15|62]} 15|67s27[62]
+11U15*put 16|216s35[15|62]
+12U15*print_bst 16|290s9[15|62]
+X 29 system.ads
+67M9*Address
+X 44 s-memory.ads
+53V13*Alloc{29|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{29|67M9} 105i<c,__gnat_realloc>22
+X 51 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+

@@ -1,0 +1,106 @@
+V "GNAT Lib v2016"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U priority_queue%b	priority_queue.adb	c4cbf948 NE OO PK GE IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U priority_queue%s	priority_queue.ads	e4d4102a BN EE NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-ioexce.ads		20160516092927 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20160516092929 119b8fb3 ada.streams%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
+D a-unccon.ads		20160516092931 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D i-cstrea.ads		20160516092927 e53d8b8e interfaces.c_streams%s
+D priority_queue.ads	20170522104819 dcb9e5fe priority_queue%s
+D priority_queue.adb	20170523094750 201fe962 priority_queue%b
+D system.ads		20160516092929 6326c08a system%s
+D s-crtl.ads		20160516092927 0ebbdb71 system.crtl%s
+D s-exctab.ads		20160516092931 54135002 system.exception_table%s
+D s-ficobl.ads		20160516092933 078245e4 system.file_control_block%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-soflin.ads		20160516092929 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092931 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20160516092931 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 10|1r6 1r23 11|1r6 1r23
+X 6 a-textio.ads
+49K13*Text_IO 471e16 10|1w10 1r27 11|1w10 1r27
+263U14*Put_Line 11|79s13 82s17
+X 10 priority_queue.ads
+3+10 item 4r31 5r31 6r31 7r31 18r51 19r48 29r37 11|5r51 6r31 35r48 36r14
+. 37r14
+4V20 "<"{boolean} 4>23 4>25 11|51s52 55s54 57s56
+4*23 a{3+10}
+4*25 b{3+10}
+5V20 ">"{boolean} 5>23 5>25 11|8s21 19s45
+5*23 a{3+10}
+5*25 b{3+10}
+6V20 "="{boolean} 6>23 6>25 11|8s28
+6*23 a{3+10}
+6*25 b{3+10}
+7V19 Image{string} 7>25 11|82s30
+7*25 a{3+10}
+8i5 max{natural} 28r39 11|3r27 13r23
+9k9*priority_queue 3z10 4z20 5z20 6z20 7z19 8z5 28E13 36l5 36e19 11|2b14
+. 93l5 93t19
+11R10*p_coa 16r31 18r32 19r34 21r25 23r26 26r33 31c10 34e15 11|5r32 28r31
+. 29r14 35r34 65r26 70r25 75r33 88r30
+12X5*bad_use 11|42r19
+13X5*space_overflow 11|14r19
+16V14*new_p_coa{11R10} 11|28b14 33l9 33t18
+18U15*insert 18=22 18>39 11|5b15 25l9 25t15
+18r22 q{11R10} 11|5b22 13r12 18m9 18r21 18r40 19r29 20m13 20r31 24m9
+18*39 element{3+10} 11|5b39 19r47 24r27
+19V14*rem_first{3+10} 19=24 11|35b14 63l9 63t18
+19r24 q{11R10} 11|35b24 41r12 45r16 46r16 46r28 47m9 47r23 51r15 51r35 51r53
+. 55r19 55r39 56m13 56r31 57r19 57r39 57r57 61m9
+21V14*size{natural} 21>19 22r19 11|70b14 73l9 73t13
+21r19 q{11R10} 11|70b19 72r16
+23V14*empty{boolean} 23>20 24r19 11|65b14 68l9 68t14
+23r20 q{11R10} 11|65b20 67r16
+26U15*print_p_coa 26>27 11|75b15 86l9 86t20
+26r27 q{11R10} 11|75b27 78r12 81r24 82r36
+28I13 index{integer} 29r27 11|3r12 3r21 76r14 76r23
+29A10 memoria(3+10)<integer> 32r20
+32a9 contingut{29A10} 11|19r31 20m15 20r33 24m11 45r18 46r18 51r37 51r55
+. 55r41 56m15 56r33 57r41 57r59 61m11 82r38
+33i9 elements{natural} 11|13r14 18m11 18r23 18r42 31m13 41r14 46r30 47m11
+. 47r25 51r17 55r21 57r21 67r18 72r18 78r14 81r26
+X 11 priority_queue.adb
+3i5 maxim{10|28I13} 90r16
+6V19 ">="{boolean} 6b19 6>23 6>25 9l14 9t17
+6*23 a{10|3+10} 8r20 8r27
+6*25 b{10|3+10} 8r22 8r29
+10i9 idx{integer} 18m35 18r58 20r25 21m13 22r17 24r21
+11i9 pi{integer} 18m52 19r15 19r41 20r43 21r18 22m13
+29r9 coa{10|11R10} 31m9 32r16
+36*9 var{10|3+10} 45m9 62r16
+37*9 aux{10|3+10} 46m9 55r55 61r27
+38i9 idx{integer} 50m9 50r21 56r25 56m48 56r65 61r21
+39i9 ci{integer} 50m17 51r12 51r47 51r65 52m13 52r17 55r15 55r51 56r43 56r55
+. 56m59 57r16 57r51 57r69 58m17 58r21
+76i9 idx{10|28I13} 81r19 82r48 83m17 83r23
+88V14 max_index{integer} 88b14 88>24 91l9 91t18
+88r24 q{10|11R10}
+

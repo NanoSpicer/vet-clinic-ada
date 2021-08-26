@@ -1,0 +1,73 @@
+V "GNAT Lib v2016"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U d_dau%b		d_dau.adb		f6c68574 NE OO PK IL
+
+U d_dau%s		d_dau.ads		692c37e1 BN EE NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+Z system%s		system.ads		system.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-numeri.ads		20160516092928 bb51c45a ada.numerics%s
+D a-nudira.ads		20160516092928 71e55def ada.numerics.discrete_random%s
+D a-nudira.adb		20160516092928 72908cdb ada.numerics.discrete_random%b
+D a-unccon.ads		20160516092931 f9eb8f06 ada.unchecked_conversion%s
+D d_dau.ads		20170517192536 18c96a0e d_dau%s
+D d_dau.adb		20170517192536 ee0fef7a d_dau%b
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D system.ads		20160516092929 6326c08a system%s
+D s-exctab.ads		20160516092931 54135002 system.exception_table%s
+D s-imguns.ads		20160516092929 9ff43cf7 system.img_uns%s
+D s-rannum.ads		20160516092929 99ade2f2 system.random_numbers%s
+D s-rannum.adb		20160516092932 20ba1217 system.random_numbers%b
+D s-ransee.ads		20160516092932 01a57b33 system.random_seed%s
+D s-secsta.ads		20160516092931 86a2856d system.secondary_stack%s
+D s-stalib.ads		20160516092931 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D s-valuns.ads		20160516092932 10a8ed3b system.val_uns%s
+X 1 ada.ads
+16K9*Ada 19e8 6|1r6 19r31
+X 2 a-numeri.ads
+16K13*Numerics 32e17 6|1r10 19r35
+X 3 a-nudira.ads
+44k22*Discrete_Random 75e33 6|1w19 19r44
+50R9*Generator<12|63R9> 6|22r25[19]
+52V13*Random{integer} 7|11s42[6|19] 19s27[6|19]
+54U14*Reset<12|106p14> 7|6s20[6|19]
+X 4 a-nudira.adb
+53V16 Random[12|83]{integer} 13|392b13[6|19]
+X 6 d_dau.ads
+2K9*d_dau 18E13 25l5 25e10 7|1b14 23l5 23t10
+4R10*type_dau 7r32 10r41 14r34 21c10 24e15 7|3r32 10r41 17r34
+7U15*new_dau 7<23 7>42 7|3b15 7l9 7t16
+7r23 dau{4R10} 7|3b23 5m9 6r26 6r35
+7i42 seed{integer} 7|3b42 5r21
+10V14*llansar_dau_binari{boolean} 10>33 10>51 11r19 7|10b14 15l9 15t27
+10r33 dau{4R10} 7|10b33 11r49
+10i51 prob{natural} 7|10b51 14r31
+14V14*llansar_dau{integer} 14>26 15r19 7|17b14 20l9 20t20
+14r26 dau{4R10} 7|17b26 19r34
+18I13 rang_dau{positive} 19r60
+19K13 Random_Int[3|44] 22r14 7|6r9 11r31 19r16
+22r9*gen{3|50R9[19]} 7|6r30 11r53 19r38
+23i9*llavor{integer} 7|5m13 6r39
+X 7 d_dau.adb
+11i9 resultat{positive} 14r16
+X 8 interfac.ads
+74M9*Unsigned_32
+77M9*Unsigned_64
+X 12 s-rannum.ads
+75V13*Random{8|74M9} 13|221i21
+76V13*Random{8|77M9} 13|221i21
+

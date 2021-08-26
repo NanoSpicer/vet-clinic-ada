@@ -1,0 +1,38 @@
+V "GNAT Lib v2016"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U constants%s		constants.ads		79fa9657 EE OO PK IL
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-unccon.ads		20160516092931 f9eb8f06 ada.unchecked_conversion%s
+D constants.ads		20170522111741 79fa9657 constants%s
+D system.ads		20160516092929 6326c08a system%s
+D s-exctab.ads		20160516092931 54135002 system.exception_table%s
+D s-stalib.ads		20160516092931 09bd3940 system.standard_library%s
+X 3 constants.ads
+1K9*constants 29l5 29e14
+3X5*nom_massa_llarg
+5i5*MIN_CONSULTES{positive}
+6i5*MAX_CONSULTES{positive}
+9i5*PROB_OC_CONSULTA{positive}
+10i5*PROB_ENT_MASCOTA{positive}
+13i5*CESPERA_REVISIO{positive}
+14i5*CESPERA_CURA{positive}
+15i5*CESPERA_CIRUGIA{positive}
+16i5*CESPERA_EMERGENCIA{positive}
+20i5*PR_CURA{positive}
+21i5*PR_CIRUGIA{positive}
+22i5*PR_EMERGENCIA{positive}
+27i5*MAX_NAME_LENGTH{integer}
+28e5*END_OF_NAME{character}
+

@@ -1,0 +1,100 @@
+V "GNAT Lib v2016"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U hash_map%b		hash_map.adb		77a25478 NE OO PK GE IL
+
+U hash_map%s		hash_map.ads		96bb1442 BN EE NE OO PK GE IL
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-charac.ads		20160516092931 2d3ec45b ada.characters%s
+D a-chlat1.ads		20160516092930 66457d31 ada.characters.latin_1%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-finali.ads		20160516092931 bf4f806b ada.finalization%s
+D a-stream.ads		20160516092929 119b8fb3 ada.streams%s
+D a-string.ads		20160516092930 90ac6797 ada.strings%s
+D a-strmap.ads		20160516092930 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20160516092928 3f91d4c5 ada.strings.unbounded%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-unccon.ads		20160516092931 f9eb8f06 ada.unchecked_conversion%s
+D hash_map.ads		20170519135447 a92ac087 hash_map%s
+D hash_map.adb		20170517192536 de8894ff hash_map%b
+D system.ads		20160516092929 6326c08a system%s
+D s-atocou.ads		20160516092932 b45c2d8d system.atomic_counters%s
+D s-exctab.ads		20160516092931 54135002 system.exception_table%s
+D s-finmas.ads		20160516092931 7811a767 system.finalization_masters%s
+D s-finroo.ads		20160516092931 4ff27390 system.finalization_root%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-secsta.ads		20160516092931 86a2856d system.secondary_stack%s
+D s-soflin.ads		20160516092929 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092931 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20160516092928 b16154c2 system.storage_pools%s
+D s-stposu.ads		20160516092927 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20160516092927 aedef97e system.stream_attributes%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+X 1 ada.ads
+16K9*Ada 19e8 12|1r6 1r33
+X 7 a-string.ads
+16K13*Strings 35e16 12|1r10 1r37
+X 9 a-strunb.ads
+76K21*Unbounded 489e26 12|1w18 1r45
+79R9*Unbounded_String<5|43R9> 473e14 12|24r14
+94V13*To_Unbounded_String{79R9} 13|16s28 43s30
+100V13*To_String{string} 13|28s16 57s16 61s23
+X 12 hash_map.ads
+3+10 item 13r59 15r53 25r18 13|21r59 49r53
+4i5 max{positive} 19r34
+5k9*hash_map 3z10 4z5 19E5 35l5 35e13 13|1b14 74l5 74t13
+7X5*out_of_space 13|40r23
+8X5*already_exists 13|29r23
+9X5*no_such_item 13|55r19
+10R10*map 12r31 13r32 15r25 31c10 33e15 13|13r31 21r32 49r25
+12U15*new_hash 12<24 13|13b15 19l9 19t17
+12r24 h{10R10} 13|13b24 15r18 15r32 16m13 17m13
+13U15*insert 13=22 13>37 13>53 13|21b15 46l9 46t15
+13r22 h{10R10} 13|21b22 22m45 22r45
+13a37 key{string} 13|21b37 23r30 28r49 43r50
+13*53 x{3+10} 13|21b53 44r34
+15V14*read{3+10} 15>19 15>30 13|49b14 72l9 72t13
+15r19 h{10R10} 13|49b19 50r45
+15a30 key{string} 13|49b30 51r30 57r50 61r57
+19f5 optimal_range{float} 20r52
+20i5 real_max{positive} 22r40 13|10r30
+22I10 index<integer> 29r35 13|4r44 10r16 23r14 24r19 51r14 52r19
+23R10 Node 27e15 29r45
+24r9 key{9|79R9} 13|16m23 28r42 43m25 57r42 61r49
+25*9 content{3+10} 13|44m25 71r32
+26b9 free{boolean} 13|17m23 26r32 34r39 45m25 54r28
+29A10 taula_dispersio(23R10)<22I10> 32r15 13|22r21 36r34 50r21 62r38
+32a9 hash{29A10} 13|15r20 15r34 16m15 17m15 22m47 50m47
+X 13 hash_map.adb
+4V14 f_hash{12|22I10} 4b14 4>21 11l9 11t15 23s23 51s23
+4a21 key{string} 7r18 7r29 8r39
+5i9 sum{integer} 8m13 8r19 10r22
+7i13 i{integer} 8r43
+15i13 i<integer> 16r20 17r20
+22a9 meva_taula{12|29A10} 26r16 28r26 34r23 43r9 44r9 45r9
+23i9 pos{12|22I10} 24r26 26r27 28r37 33m13 33r18 34r34 34r48 36m17 36r23
+. 39r16 43r20 44r20 45r20
+24i9 original{12|22I10} 34r53 39r20
+50a9 meva_taula{12|29A10} 54r12 57r26 61r33 71r16
+51i9 pos{12|22I10} 52r26 54r23 57r37 59m17 59r22 61r44 61r65 62m21 62r27
+. 66r20 71r27
+52i9 original{12|22I10} 61r70 66r24
+
